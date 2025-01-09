@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'bydos-icons';
+  src: url('../fonts/bydos-icons.eot?vnv4jo');
+  src: url('../fonts/bydos-icons.eot?vnv4jo#iefix') format('embedded-opentype'),
+  url('../fonts/bydos-icons.ttf?vnv4jo') format('truetype'),
+  url('../fonts/bydos-icons.woff?vnv4jo') format('woff'),
+  url('../fonts/bydos-icons.svg?vnv4jo#bydos-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="tji-"], [class*=" tji-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'bydos-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tji-sec-icon:before {
+  content: "\e935";
+}
+.tji-hero-icon:before {
+  content: "\e934";
+}
+.tji-abstract:before {
+  content: "\e900";
+}
+.tji-api:before {
+  content: "\e901";
+}
+.tji-area-chart:before {
+  content: "\e902";
+}
+.tji-asterisk:before {
+  content: "\e903";
+}
+.tji-big-idea:before {
+  content: "\e904";
+}
+.tji-blockchain:before {
+  content: "\e905";
+}
+.tji-call .path1:before {
+  content: "\e906";
+}
+.tji-call .path2:before {
+  content: "\e907";
+}
+.tji-call .path3:before {
+  content: "\e908";
+}
+.tji-call .path4:before {
+  content: "\e909";
+}
+.tji-call .path5:before {
+  content: "\e90a";
+}
+.tji-call .path6:before {
+  content: "\e90b";
+}
+.tji-call .path7:before {
+  content: "\e90c";
+}
+.tji-call .path8:before {
+  content: "\e90d";
+}
+.tji-call .path9:before {
+  content: "\e90e";
+}
+.tji-call .path10:before {
+  content: "\e90f";
+}
+.tji-call .path11:before {
+  content: "\e910";
+}
+.tji-call .path12:before {
+  content: "\e911";
+}
+.tji-call .path13:before {
+  content: "\e912";
+}
+.tji-call .path14:before {
+  content: "\e913";
+}
+.tji-certified:before {
+  content: "\e914";
+}
+.tji-check-mark .path1:before {
+  content: "\e915";
+}
+.tji-check-mark .path2:before {
+  content: "\e916";
+}
+.tji-cyber:before {
+  content: "\e917";
+}
+.tji-down-right-arrow:before {
+  content: "\e918";
+}
+.tji-energy-control:before {
+  content: "\e919";
+}
+.tji-fast-delivery:before {
+  content: "\e91a";
+}
+.tji-guarantee:before {
+  content: "\e91b";
+}
+.tji-gungnir:before {
+  content: "\e91c";
+}
+.tji-lime-juice:before {
+  content: "\e91d";
+}
+.tji-location:before {
+  content: "\e91e";
+}
+.tji-magnifying-glass:before {
+  content: "\e91f";
+}
+.tji-magnifying-glass-2:before {
+  content: "\e920";
+}
+.tji-mail-1 .path1:before {
+  content: "\e921";
+}
+.tji-mail-1 .path2:before {
+  content: "\e922";
+}
+.tji-message:before {
+  content: "\e923";
+}
+.tji-money-bag:before {
+  content: "\e924";
+}
+.tji-phone-call:before {
+  content: "\e925";
+}
+.tji-pie-chart:before {
+  content: "\e926";
+}
+.tji-programming:before {
+  content: "\e927";
+}
+.tji-refresh:before {
+  content: "\e928";
+}
+.tji-research:before {
+  content: "\e929";
+}
+.tji-return-box:before {
+  content: "\e92a";
+}
+.tji-rocket:before {
+  content: "\e92b";
+}
+.tji-search-1:before {
+  content: "\e92c";
+}
+.tji-search-2:before {
+  content: "\e92d";
+}
+.tji-service:before {
+  content: "\e92e";
+}
+.tji-shopping:before {
+  content: "\e92f";
+}
+.tji-smile:before {
+  content: "\e930";
+}
+.tji-speedometer:before {
+  content: "\e931";
+}
+.tji-straight-quotes:before {
+  content: "\e932";
+}
+.tji-support:before {
+  content: "\e933";
+}
