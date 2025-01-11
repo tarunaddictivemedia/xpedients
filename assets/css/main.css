@@ -7574,8 +7574,8 @@ START: Theme Services CSS
   padding: 20px 30px;
   max-width: 90%;
   width: 100%;
-  -webkit-mask-image: url(../images/shapes/service_shapes.svg);
-          mask-image: url(../images/shapes/service_shapes.svg);
+  -webkit-mask-image: url(../img/service_shapes.svg);
+          mask-image: url(../img/service_shapes.svg);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
