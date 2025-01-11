@@ -1,0 +1,596 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+   <meta charset="utf-8" />
+   <meta http-equiv="x-ua-compatible" content="ie=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="" />
+
+   <!-- Site Title -->
+   <title>Xpedients</title>
+
+   <!-- Place favicon.ico in the root directory -->
+   <link rel="apple-touch-icon" href="assets/images/fav.svg" />
+   <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png" />
+
+   <!-- CSS here -->
+   <link rel="stylesheet" href="assets/css/animate.min.css" />
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+   <link rel="stylesheet" href="assets/css/swiper.min.css" />
+   <link rel="stylesheet" href="assets/css/bydos-icons.css" />
+   <link rel="stylesheet" href="assets/css/venobox.min.css" />
+   <link rel="stylesheet" href="assets/css/meanmenu.css" />
+   <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+
+   <div class="body-overlay d-lg-none"></div>
+
+   <!-- start: preloader -->
+   <div id="preloader">
+      <div class="tj-loader-wrap">
+         <div class="tj-loader">
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+         </div>
+      </div>
+   </div>
+   <!-- end: preloader -->
+
+   <!-- start: Search Popup -->
+   <div class="search-popup">
+      <button class="close-search style-2">
+         <i class="fa fa-light fa-xmark"></i>
+      </button>
+      <form method="post" action="#">
+         <div class="form-group">
+            <input type="search" name="search-field" value="" placeholder="Search Here" required="">
+            <button type="submit"><i class="fa fa-search"></i></button>
+         </div>
+      </form>
+      <div class="search-overly"></div>
+   </div>
+   <!-- end: Search Popup -->
+
+   <!-- start: Hamburger Menu -->
+   <div class="hamburger-area d-lg-none" data-lenis-prevent>
+      <div class="hamburger_bg"></div>
+      <div class="hamburger_wrapper">
+         <div class="hamburger_top d-flex align-items-center justify-content-between">
+            <div class="hamburger_logo">
+               <a href="index.html" class="mobile_logo">
+                  <img src="assets/img/logo.png" alt="Logo" />
+               </a>
+            </div>
+            <div class="hamburger_close">
+               <button class="hamburger_close_btn"><i class="fa-thin fa-times"></i></button>
+            </div>
+         </div>
+         <div class="hamburger_search">
+            <form method="get" action="index.html">
+               <button type="submit"><i class="fal fa-search"></i></button>
+               <input type="search" autocomplete="off" name="s" value="" placeholder="Search here" />
+            </form>
+         </div>
+         <div class="hamburger_menu">
+            <div class="mobile_menu"></div>
+         </div>
+         <div class="hamburger-infos">
+            <h4 class="hamburger-title">Information</h4>
+            <div class="contact-item">
+               <div class="contact-text">
+                  <div class="text"><a class="link" href="mailto:support@xpedients.com">support@xpedients.com</a></div>
+               </div>
+            </div>
+            <div class="contact-item">
+               <div class="contact-text">
+                  <div class="text"><a class="link" href="tel:+91 98109 03543">+91 98109 03543</a></div>
+               </div>
+            </div>
+            <div class="contact-item">
+               <div class="contact-text">
+                  <div class="text">Sector - 63, Noida, Uttar Pradesh 201301, IN</div>
+               </div>
+            </div>
+         </div>
+         <div class="hamburger-socials">
+            <h4 class="hamburger-title">Follow Us</h4>
+            <ul>
+               <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+               </li>
+               <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+               </li>
+               <li>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+               </li>
+               <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <!-- end: Hamburger Menu -->
+
+   <!-- start: Header Area -->
+   <header class="tj-header-area header-absolute header-1">
+      <div class="container-fluid px-0">
+         <div class="row">
+            <div class="col-12">
+               <div class="header-wrapper">
+                  <div class="site-logo">
+                     <a class="logo" href="index.html"><img src="assets/img/logo.png"
+                           alt="logo"></a>
+                  </div>
+                  <div class="mainmenu main-mobile-menu d-none d-lg-inline-flex">
+                     <ul>
+                        <li>
+                           <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                           <a href="service.html">Services</a>
+                        </li>
+                        <li>
+                           <a href="about.html">About</a>
+                        </li>
+                        <li>
+                           <a href="javascript:void(0)">Blog</a>
+                        </li>
+                        <li  class="current-menu-ancestor"><a href="contact.html">Contact</a></li>
+                     </ul>
+                  </div>
+                  <div class="header-infos d-none d-lg-inline-flex">
+                     <div class="header-search d-none d-xl-inline-flex">
+                        <button class="search">Search<i class="fa fa-search"></i></button>
+                     </div>
+                     <div class="header-button">
+                        <a href="contact.html" class="tj-primary-btn">
+                           <span class="btn-text">
+                              <span>Download <i class="fa fa-user-o" style="padding-left: 10px;"></i></span>
+                           </span>
+                        </a>
+                     </div>
+                  </div>
+
+                  <!-- menu bar -->
+                  <div class="menu_bar mobile_menu_bar d-lg-none">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <header class="tj-header-area header-duplicate header-sticky header-1">
+      <div class="container-fluid px-0">
+         <div class="row">
+            <div class="col-12">
+               <div class="header-wrapper">
+                  <div class="site-logo">
+                     <a class="logo" href="index.html"><img src="assets/img/logo.png"
+                           alt="logo"></a>
+                  </div>
+                  <div class="mainmenu d-none d-lg-inline-flex">
+                    <ul>
+                       <li>
+                          <a href="index.html">Home</a>
+                       </li>
+                       <li>
+                          <a href="service.html">Services</a>
+                       </li>
+                       <li>
+                          <a href="about.html">About</a>
+                       </li>
+                       <li>
+                          <a href="javascript:void(0)">Blog</a>
+                       </li>
+                       <li  class="current-menu-ancestor"><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                  <div class="header-infos d-none d-lg-inline-flex">
+                     <div class="header-search d-none d-xl-inline-flex">
+                        <button class="search">Search<i class="fa fa-search"></i></button>
+                     </div>
+                     <div class="header-button">
+                        <a href="contact.html" class="tj-primary-btn">
+                           <span class="btn-text">
+                              <span>Download <i class="fa fa-user-o" style="padding-left: 10px;"></i></span>
+                           </span>
+                        </a>
+                     </div>
+                  </div>
+
+                  <!-- menu bar -->
+                  <div class="menu_bar mobile_menu_bar d-lg-none">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- end: Header Area -->
+
+   <main id="content" class="site-main">
+      
+      <!-- About US -->
+
+      <section class="tj-breadcrumb-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="breadcrumb-content-area text-center">
+                     <div class="breadcrumb-link wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <span>
+                           <i class="tji-leaf"></i><a href="index.html">
+                              <span>Home</span>
+                           </a>
+                        </span>
+                        <span>
+                           <span>Contact Us</span>
+                        </span>
+                     </div>
+                     <div class="breadcrumb-heading wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <h1 class="breadcrumb-title">Contact Us</h1>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="breadcrumb-bg" data-bg-image="assets/img/124946.jpg" style="background-image: url(&quot;assets/img/124946.jpg&quot;);"></div>
+      </section>
+
+      <!-- start: Contact Area -->
+      <section class="tj-contact-section">
+         <div class="contact-top-area">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-lg-5">
+                     <div class="contact-wrapper wow fadeInLeft" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                        <img src="assets/img/contact-1.jpg" alt="Images">
+                     </div>
+                  </div>
+                  <div class="col-lg-7">
+                     <div class="contact-form-box wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                        <div class="heading-area">
+                           <span class="sub-title">Get in touch</span>
+                           <h3 class="sec-title">More <span>About</span> Service?</h3>
+                        </div>
+                        <form>
+                           <div class="row">
+                              <div class="col-12">
+                                 <div class="form-input">
+                                    <textarea id="comment" name="message" placeholder="Enter your message"></textarea>
+                                 </div>
+                              </div>
+                              <div class="col-12">
+                                 <div class="form-input">
+                                    <input type="text" id="website" name="website" placeholder="Enter your website" required="">
+                                 </div>
+                              </div>
+                              <div class="col-12">
+                                 <div class="form-input">
+                                    <input type="email" id="emailOne" name="email" placeholder="Enter your Email" required="">
+                                 </div>
+                              </div>
+                              <div class="col-sm-6">
+                                 <div class="form-input">
+                                    <input type="text" id="first" name="name" placeholder="Fast Name" required="">
+                                 </div>
+                              </div>
+                              <div class="col-sm-6">
+                                 <div class="form-input">
+                                    <input type="text" id="last" name="name" placeholder="Last Name" required="">
+                                 </div>
+                              </div>
+                              <div class="col-12">
+                                 <div class="contact-submit-button">
+                                    <button class="tj-primary-btn" type="submit" value="submit">
+                                       <span class="btn-text">
+                                          <span>Submit Now</span>
+                                       </span>
+                                       <span class="btn-icon">
+                                          <i class="fa fa-arrow-right"></i>
+                                          <i class="fa fa-arrow-right"></i>
+                                       </span>
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="contact-middle-area">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="map-area wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.677922226045!2d77.38655839999998!3d28.6246822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceff135b3084b%3A0x19ccb4e95c69306d!2sSector%2063%2C%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1736579723727!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="contact-bottom-area">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="heading-area text-center wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <span class="sub-title">Essential faq</span>
+                        <h3 class="sec-title">client <span>general</span> ask</h3>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-12">
+                     <div class="accordion tj-faq" id="faqOne">
+                        <div class="accordion-item style-3 active wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                           <div class="faq-content">
+                              <button class="faq-title" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1" aria-expanded="true">
+                                 (01) - How is UX design different from UI design?
+                              </button>
+                              <div id="faq-1" class="collapse show" data-bs-parent="#faqOne">
+                                 <div class="accordion-body faq-text">
+                                    <p>
+                                       Netu augue ones a ridiculus volutpat tincidunt molestie accumsan Imperdiet
+                                       dapibus nam aenean suscipit elit aptent habitant per integer pretium senectus
+                                       pede mattis curabitur habitant socis sagittis pharetra mus magna platea
+                                       scelerisque.
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item style-3 wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                           <div class="faq-content">
+                              <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2" aria-expanded="false">
+                                 (02) - What are the important skills for a UX designer?
+                              </button>
+                              <div id="faq-2" class="collapse" data-bs-parent="#faqOne">
+                                 <div class="accordion-body faq-text">
+                                    <p>
+                                       Netu augue ones a ridiculus volutpat tincidunt molestie accumsan Imperdiet
+                                       dapibus nam aenean suscipit elit aptent habitant per integer pretium senectus
+                                       pede mattis curabitur habitant socis sagittis pharetra mus magna platea
+                                       scelerisque.
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item style-3 wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                           <div class="faq-content">
+                              <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3" aria-expanded="false">
+                                 (03) - What research methods do you use?
+                              </button>
+                              <div id="faq-3" class="collapse" data-bs-parent="#faqOne">
+                                 <div class="accordion-body faq-text">
+                                    <p>
+                                       Netu augue ones a ridiculus volutpat tincidunt molestie accumsan Imperdiet
+                                       dapibus nam aenean suscipit elit aptent habitant per integer pretium senectus
+                                       pede mattis curabitur habitant socis sagittis pharetra mus magna platea
+                                       scelerisque.
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item style-3 wow fadeInUp" data-wow-delay=".7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
+                           <div class="faq-content">
+                              <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4" aria-expanded="false">
+                                 (04) - What’s your favorite project that you’ve worked on?
+                              </button>
+                              <div id="faq-4" class="collapse" data-bs-parent="#faqOne">
+                                 <div class="accordion-body faq-text">
+                                    <p>
+                                       Netu augue ones a ridiculus volutpat tincidunt molestie accumsan Imperdiet
+                                       dapibus nam aenean suscipit elit aptent habitant per integer pretium senectus
+                                       pede mattis curabitur habitant socis sagittis pharetra mus magna platea
+                                       scelerisque.
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item style-3 wow fadeInUp" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+                           <div class="faq-content">
+                              <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-5" aria-expanded="false">
+                                 (05) - How is UX design different from UI design?
+                              </button>
+                              <div id="faq-5" class="collapse" data-bs-parent="#faqOne">
+                                 <div class="accordion-body faq-text">
+                                    <p>
+                                       Netu augue ones a ridiculus volutpat tincidunt molestie accumsan Imperdiet
+                                       dapibus nam aenean suscipit elit aptent habitant per integer pretium senectus
+                                       pede mattis curabitur habitant socis sagittis pharetra mus magna platea
+                                       scelerisque.
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end: Contact Area -->
+   </main>
+
+   <!-- start: Footer Area -->
+   <footer class="tj-footer-area footer-1" data-bg-image="assets/images/shapes/h1-footer-shapes.png">
+      <div class="footer-top-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="subscribe-content-area">
+                     <h2 id="anim" class="title">Subscribe now</h2>
+                     <form>
+                        <div class="subscribe_form">
+                           <div class="form_input">
+                              <input type="email" name="email" id="email" placeholder="Email address here" required="">
+                           </div>
+                           <div class="form_infos">
+                              <i class="fa send fa-regular fa-paper-plane"></i>
+                              <button class="tj-primary-btn">
+                                 <span class="btn-text">
+                                    <span>Submit now</span>
+                                 </span>
+                                 <span class="btn-icon">
+                                    <i class="fa fa-arrow-right"></i>
+                                    <i class="fa fa-arrow-right"></i>
+                                 </span>
+                              </button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer-bottom-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="footer-widget footer1-col-1 widget_nav_menu">
+                     <div class="footer-title">
+                        <h5 class="title">Services</h5>
+                     </div>
+                     <ul>
+                        <li><a href="#">Web Application</a></li>
+                        <li><a href="#">Mobile Application</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">Maintenance & Support</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-2 col-md-6 col-sm-6">
+                  <div class="footer-widget footer1-col-2 widget_nav_menu">
+                     <div class="footer-title">
+                        <h5 class="title">Quick link</h5>
+                     </div>
+                     <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our blog</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Contact</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="footer-widget footer1-col-3 footer_contact">
+                     <div class="footer-title">
+                        <h5 class="title">Contact</h5>
+                     </div>
+                     <div class="contact-list">
+                        <ul>
+                           <li><span>Email Us</span><a class="link"
+                                 href="mailto:support@xpedients.com">support@xpedients.com</a></li>
+                           <li><span>Phone No</span><a class="link" href="tel:+91 98109 03543">+91 98109 03543</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                  <div class="footer-widget footer1-col-4 footer_map">
+                     <div class="footer-title">
+                        <h5 class="title">Location</h5>
+                     </div>
+                     <div class="map-location">
+                        <ul>
+                           <li>Sector - 63, Noida, Uttar Pradesh 201301, IN</li>
+                        </ul>
+                     </div>
+                     <div class="footer-socials">
+                        <h5 class="title">Follow Us</h5>
+                        <ul>
+                           <li><a href="#">facebook</a></li>
+                           <li><a href="#">twitter</a></li>
+                           <li><a href="#">linkedin</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="tj-copyright-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="copyright-wrapper">
+                     <div class="copyright-text">
+                        <p>Xpedients © 2024 All Rights Reserved.</p>
+                     </div>
+                     <div class="copyright-logo">
+                        <a class="logo" href="#">
+                           <img src="assets/img/logo.png" alt="Logos">
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- end: Footer Area -->
+
+   <!-- start: Back To Top -->
+   <div class="scroll-to-top">
+      <i class="fa fa-regular fa-angle-up"></i>
+   </div>
+   <!-- end: Back To Top -->
+
+   <!-- JS here -->
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/jquery-knob.js"></script>
+   <script src="assets/js/venobox.min.js"></script>
+   <script src="assets/js/appear.min.js"></script>
+   <script src="assets/js/chroma.min.js"></script>
+   <script src="assets/js/gsap.min.js"></script>
+   <script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
+   <script src="assets/js/gsap-scroll-trigger.min.js"></script>
+   <script src="assets/js/gsap-split-text.min.js"></script>
+   <script src="assets/js/lenis.min.js"></script>
+   <script src="assets/js/odometer.min.js"></script>
+   <script src="assets/js/mixitup.min.js"></script>
+   <script src="assets/js/swiper.min.js"></script>
+   <script src="assets/js/imagesloaded-pkgd.js"></script>
+   <script src="assets/js/isotope.pkgd.min.js"></script>
+   <script src="assets/js/meanmenu.js"></script>
+   <script src="assets/js/wow.min.js"></script>
+   <script src="assets/js/main.js"></script>
+</body>
+
+<style>
+   header.tj-header-area.header-absolute.header-1 {
+      background: #000;
+   }
+   .accordion-item .faq-content .faq-title:before {
+      content:"\f061" !important;     font: normal normal normal 14px / 1 FontAwesome !important;
+   }
+</style>
+</html>

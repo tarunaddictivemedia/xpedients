@@ -1,0 +1,605 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+   <meta charset="utf-8" />
+   <meta http-equiv="x-ua-compatible" content="ie=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="" />
+
+   <!-- Site Title -->
+   <title>Xpedients</title>
+
+   <!-- Place favicon.ico in the root directory -->
+   <link rel="apple-touch-icon" href="assets/images/fav.svg" />
+   <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png" />
+
+   <!-- CSS here -->
+   <link rel="stylesheet" href="assets/css/animate.min.css" />
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+   <link rel="stylesheet" href="assets/css/swiper.min.css" />
+   <link rel="stylesheet" href="assets/css/bydos-icons.css" />
+   <link rel="stylesheet" href="assets/css/venobox.min.css" />
+   <link rel="stylesheet" href="assets/css/meanmenu.css" />
+   <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+
+   <div class="body-overlay d-lg-none"></div>
+
+   <!-- start: preloader -->
+   <div id="preloader">
+      <div class="tj-loader-wrap">
+         <div class="tj-loader">
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+         </div>
+      </div>
+   </div>
+   <!-- end: preloader -->
+
+   <!-- start: Search Popup -->
+   <div class="search-popup">
+      <button class="close-search style-2">
+         <i class="fa fa-light fa-xmark"></i>
+      </button>
+      <form method="post" action="#">
+         <div class="form-group">
+            <input type="search" name="search-field" value="" placeholder="Search Here" required="">
+            <button type="submit"><i class="fa fa-search"></i></button>
+         </div>
+      </form>
+      <div class="search-overly"></div>
+   </div>
+   <!-- end: Search Popup -->
+
+   <!-- start: Hamburger Menu -->
+   <div class="hamburger-area d-lg-none" data-lenis-prevent>
+      <div class="hamburger_bg"></div>
+      <div class="hamburger_wrapper">
+         <div class="hamburger_top d-flex align-items-center justify-content-between">
+            <div class="hamburger_logo">
+               <a href="index.html" class="mobile_logo">
+                  <img src="assets/img/logo.png" alt="Logo" />
+               </a>
+            </div>
+            <div class="hamburger_close">
+               <button class="hamburger_close_btn"><i class="fa-thin fa-times"></i></button>
+            </div>
+         </div>
+         <div class="hamburger_search">
+            <form method="get" action="index.html">
+               <button type="submit"><i class="fal fa-search"></i></button>
+               <input type="search" autocomplete="off" name="s" value="" placeholder="Search here" />
+            </form>
+         </div>
+         <div class="hamburger_menu">
+            <div class="mobile_menu"></div>
+         </div>
+         <div class="hamburger-infos">
+            <h4 class="hamburger-title">Information</h4>
+            <div class="contact-item">
+               <div class="contact-text">
+                  <div class="text"><a class="link" href="mailto:support@xpedients.com">support@xpedients.com</a></div>
+               </div>
+            </div>
+            <div class="contact-item">
+               <div class="contact-text">
+                  <div class="text"><a class="link" href="tel:+91 98109 03543">+91 98109 03543</a></div>
+               </div>
+            </div>
+            <div class="contact-item">
+               <div class="contact-text">
+                  <div class="text">Sector - 63, Noida, Uttar Pradesh 201301, IN</div>
+               </div>
+            </div>
+         </div>
+         <div class="hamburger-socials">
+            <h4 class="hamburger-title">Follow Us</h4>
+            <ul>
+               <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+               </li>
+               <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+               </li>
+               <li>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+               </li>
+               <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <!-- end: Hamburger Menu -->
+
+   <!-- start: Header Area -->
+   <header class="tj-header-area header-absolute header-1">
+      <div class="container-fluid px-0">
+         <div class="row">
+            <div class="col-12">
+               <div class="header-wrapper">
+                  <div class="site-logo">
+                     <a class="logo" href="index.html"><img src="assets/img/logo.png"
+                           alt="logo"></a>
+                  </div>
+                  <div class="mainmenu main-mobile-menu d-none d-lg-inline-flex">
+                     <ul>
+                        <li>
+                           <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                           <a href="service.html">Services</a>
+                        </li>
+                        <li  class="current-menu-ancestor">
+                           <a href="about.html">About</a>
+                        </li>
+                        <li>
+                           <a href="javascript:void(0)">Blog</a>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                     </ul>
+                  </div>
+                  <div class="header-infos d-none d-lg-inline-flex">
+                     <div class="header-search d-none d-xl-inline-flex">
+                        <button class="search">Search<i class="fa fa-search"></i></button>
+                     </div>
+                     <div class="header-button">
+                        <a href="contact.html" class="tj-primary-btn">
+                           <span class="btn-text">
+                              <span>Download <i class="fa fa-user-o" style="padding-left: 10px;"></i></span>
+                           </span>
+                        </a>
+                     </div>
+                  </div>
+
+                  <!-- menu bar -->
+                  <div class="menu_bar mobile_menu_bar d-lg-none">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <header class="tj-header-area header-duplicate header-sticky header-1">
+      <div class="container-fluid px-0">
+         <div class="row">
+            <div class="col-12">
+               <div class="header-wrapper">
+                  <div class="site-logo">
+                     <a class="logo" href="index.html"><img src="assets/img/logo.png"
+                           alt="logo"></a>
+                  </div>
+                  <div class="mainmenu d-none d-lg-inline-flex">
+                    <ul>
+                       <li>
+                          <a href="index.html">Home</a>
+                       </li>
+                       <li>
+                          <a href="service.html">Services</a>
+                       </li>
+                       <li  class="current-menu-ancestor">
+                          <a href="about.html">About</a>
+                       </li>
+                       <li>
+                          <a href="javascript:void(0)">Blog</a>
+                       </li>
+                       <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                  <div class="header-infos d-none d-lg-inline-flex">
+                     <div class="header-search d-none d-xl-inline-flex">
+                        <button class="search">Search<i class="fa fa-search"></i></button>
+                     </div>
+                     <div class="header-button">
+                        <a href="contact.html" class="tj-primary-btn">
+                           <span class="btn-text">
+                              <span>Download <i class="fa fa-user-o" style="padding-left: 10px;"></i></span>
+                           </span>
+                        </a>
+                     </div>
+                  </div>
+
+                  <!-- menu bar -->
+                  <div class="menu_bar mobile_menu_bar d-lg-none">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- end: Header Area -->
+
+   <main id="content" class="site-main">
+      
+      <!-- About US -->
+
+      <section class="tj-breadcrumb-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="breadcrumb-content-area text-center">
+                     <div class="breadcrumb-link wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <span>
+                           <i class="tji-leaf"></i><a href="index.html">
+                              <span>Home</span>
+                           </a>
+                        </span>
+                        <span>
+                           <span>About Us</span>
+                        </span>
+                     </div>
+                     <div class="breadcrumb-heading wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <h1 class="breadcrumb-title">About Us</h1>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="breadcrumb-bg" data-bg-image="assets/img/breadcrumb-1.jpg" style="background-image: url(&quot;assets/img/breadcrumb-1.jpg&quot;);"></div>
+      </section>
+
+      <!-- start: About Area -->
+      <section class="tj-about-section" style="padding-top: 10rem;">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="about-wrapper">
+                     <div class="about-single">
+                        <div class="about-content wow fadeInLeft" data-wow-delay=".4s">
+                           <div class="heading-area">
+                              <div class="video-area">
+                                 <a class="video-btn video-popup" data-autoplay="true" data-vbtype="video"
+                                    data-maxwidth="1200px"
+                                    href="https://www.youtube.com/watch?v=MLpWrANjFbI&ab_channel=eidelchteinadvogados">
+                                    <span><i class="fa fa-sharp fa-solid fa-play"></i></span>
+                                 </a>
+                              </div>
+                              <div class="sec-text">
+                                 <span class="sub-title">About agency</span>
+                                 <h3 class="sec-title">Unique <span>strategy</span> growth the business sales</h3>
+                              </div>
+                           </div>
+                           <div class="desc">
+                              <p>Dapien sem magna vel hendrerit dolars tellus arcu porttitoy proin lectus ligula belits
+                                 erate <span class="bg-text">imperdiet dictum</span> disclose dolor porttitor so dictum
+                                 condimentum integer penatibus massa. Leo sit netus <span class="bg-text">augue</span>
+                                 on ridiculus volutpat tincidunt molestie facilisist</p>
+                           </div>
+                        </div>
+                        <div class="about-images reveal-image-anim wow fadeInRight" data-wow-delay=".4s">
+                           <img src="assets/img/h1-about-1.jpg" alt="Images">
+                        </div>
+                     </div>
+                     <div class="about-single">
+                        <div class="about-content wow fadeInLeft" data-wow-delay=".5s">
+                           <div class="check-style-one">
+                              <div class="heading-area">
+                                 <h4 class="title sec-title">Crafting Marketing that Ignites Engagement & growth
+                                    business sales</h4>
+                              </div>
+                              <div class="check-list">
+                                 <ul>
+                                    <li><img src="assets/img/check-mark.svg" alt="Icons">Simplicity The Biggest
+                                       Idea A Looked</li>
+                                    <li><img src="assets/img/check-mark.svg" alt="Icons">Mastering The Art Of
+                                       Conversion</li>
+                                    <li><img src="assets/img/check-mark.svg" alt="Icons">Keeping Advertising
+                                       Standards High</li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="about-button d-none d-lg-inline-flex">
+                              <a href="about.html" class="tj-primary-btn">
+                                 <span class="btn-text">
+                                    <span>Learn More</span>
+                                 </span>
+                                 <span class="btn-icon">
+                                    <i class="fa fa-arrow-right"></i>
+                                    <i class="fa fa-arrow-right"></i>
+                                 </span>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="about-images reveal-image-anim wow fadeInRight" data-wow-delay=".5s">
+                           <img src="assets/img/h1-about-2.jpg" alt="Images">
+                        </div>
+                     </div>
+                     <div class="about-button d-lg-none d-inline-flex justify-content-center wow fadeInUp"
+                        data-wow-delay=".6s">
+                        <a href="about.html" class="tj-primary-btn">
+                           <span class="btn-text">
+                              <span>Learn More</span>
+                           </span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end: About Area -->
+
+      <section class="tj-counter-section" data-bg-image="assets/images/shapes/h1-counter-bg.png" style="background-image: url(&quot;assets/images/shapes/h1-counter-bg.png&quot;);">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-lg-3 col-md-3 col-6">
+                  <div class="counter-item wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                     <div class="counter-icon">
+                        <i class="fa fa-pie-chart" aria-hidden="true"></i>
+                     </div>
+                     <div class="number"><span class="odometer odometer-auto-theme" data-count="250"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">5</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span></div>
+                     <span class="sub-title">Running Project</span>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-3 col-6">
+                  <div class="counter-item wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                     <div class="counter-icon">
+                        <i class="fa fa-line-chart" aria-hidden="true"></i>
+                     </div>
+                     <div class="number"><span class="odometer odometer-auto-theme" data-count="48"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">4</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">8</span></span></span></span></span></div></span>K</div>
+                     <span class="sub-title">Project Done</span>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-3 col-6">
+                  <div class="counter-item wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                     <div class="counter-icon">
+                        <i class="fa fa-retweet" aria-hidden="true"></i>
+                     </div>
+                     <div class="number"><span class="odometer odometer-auto-theme" data-count="23"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">3</span></span></span></span></span></div></span>K</div>
+                     <span class="sub-title">Happy Clients</span>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-3 col-6">
+                  <div class="counter-item wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                     <div class="counter-icon">
+                        <i class="fa fa-glass" aria-hidden="true"></i>
+                     </div>
+                     <div class="number"><span class="odometer odometer-auto-theme" data-count="28"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">8</span></span></span></span></span></div></span></div>
+                     <span class="sub-title">Awards Win</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="tj-process-section">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="heading-area text-center wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                     <span class="sub-title">Work process</span>
+                     <h3 class="sec-title">Our <span>design</span> process</h3>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="process-wrapper">
+                     <div class="process-item wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <div class="process-text">
+                           <h5 class="title">Ideation</h5>
+                           <div class="desc">
+                              <p>Pretium primis class lorem arcu ornare elite taciti ford phasellus decide tristique.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="process-icon">
+                           <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                        </div>
+                     </div>
+                     <div class="process-item wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                        <div class="process-text">
+                           <h5 class="title">Research</h5>
+                           <div class="desc">
+                              <p>Pretium primis class lorem arcu ornare elite taciti ford phasellus decide tristique.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="process-icon">
+                           <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                     </div>
+                     <div class="process-item wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                        <div class="process-text">
+                           <h5 class="title">Design</h5>
+                           <div class="desc">
+                              <p>Pretium primis class lorem arcu ornare elite taciti ford phasellus decide tristique.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="process-icon">
+                           <i class="fa fa-desktop" aria-hidden="true"></i>
+                        </div>
+                     </div>
+                     <div class="process-item wow fadeInUp" data-wow-delay=".7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
+                        <div class="process-text">
+                           <h5 class="title">Launch</h5>
+                           <div class="desc">
+                              <p>Pretium primis class lorem arcu ornare elite taciti ford phasellus decide tristique.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="process-icon">
+                           <i class="fa fa-rocket" aria-hidden="true"></i>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <!-- start: Footer Area -->
+   <footer class="tj-footer-area footer-1" data-bg-image="assets/images/shapes/h1-footer-shapes.png">
+      <div class="footer-top-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="subscribe-content-area">
+                     <h2 id="anim" class="title">Subscribe now</h2>
+                     <form>
+                        <div class="subscribe_form">
+                           <div class="form_input">
+                              <input type="email" name="email" id="email" placeholder="Email address here" required="">
+                           </div>
+                           <div class="form_infos">
+                              <i class="fa send fa-regular fa-paper-plane"></i>
+                              <button class="tj-primary-btn">
+                                 <span class="btn-text">
+                                    <span>Submit now</span>
+                                 </span>
+                                 <span class="btn-icon">
+                                    <i class="fa fa-arrow-right"></i>
+                                    <i class="fa fa-arrow-right"></i>
+                                 </span>
+                              </button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer-bottom-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="footer-widget footer1-col-1 widget_nav_menu">
+                     <div class="footer-title">
+                        <h5 class="title">Services</h5>
+                     </div>
+                     <ul>
+                        <li><a href="#">Web Application</a></li>
+                        <li><a href="#">Mobile Application</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">Maintenance & Support</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-2 col-md-6 col-sm-6">
+                  <div class="footer-widget footer1-col-2 widget_nav_menu">
+                     <div class="footer-title">
+                        <h5 class="title">Quick link</h5>
+                     </div>
+                     <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our blog</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Contact</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="footer-widget footer1-col-3 footer_contact">
+                     <div class="footer-title">
+                        <h5 class="title">Contact</h5>
+                     </div>
+                     <div class="contact-list">
+                        <ul>
+                           <li><span>Email Us</span><a class="link"
+                                 href="mailto:support@xpedients.com">support@xpedients.com</a></li>
+                           <li><span>Phone No</span><a class="link" href="tel:+91 98109 03543">+91 98109 03543</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                  <div class="footer-widget footer1-col-4 footer_map">
+                     <div class="footer-title">
+                        <h5 class="title">Location</h5>
+                     </div>
+                     <div class="map-location">
+                        <ul>
+                           <li>Sector - 63, Noida, Uttar Pradesh 201301, IN</li>
+                        </ul>
+                     </div>
+                     <div class="footer-socials">
+                        <h5 class="title">Follow Us</h5>
+                        <ul>
+                           <li><a href="#">facebook</a></li>
+                           <li><a href="#">twitter</a></li>
+                           <li><a href="#">linkedin</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="tj-copyright-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="copyright-wrapper">
+                     <div class="copyright-text">
+                        <p>Xpedients © 2024 All Rights Reserved.</p>
+                     </div>
+                     <div class="copyright-logo">
+                        <a class="logo" href="#">
+                           <img src="assets/img/logo.png" alt="Logos">
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- end: Footer Area -->
+
+   <!-- start: Back To Top -->
+   <div class="scroll-to-top">
+      <i class="fa fa-regular fa-angle-up"></i>
+   </div>
+   <!-- end: Back To Top -->
+
+   <!-- JS here -->
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/jquery-knob.js"></script>
+   <script src="assets/js/venobox.min.js"></script>
+   <script src="assets/js/appear.min.js"></script>
+   <script src="assets/js/chroma.min.js"></script>
+   <script src="assets/js/gsap.min.js"></script>
+   <script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
+   <script src="assets/js/gsap-scroll-trigger.min.js"></script>
+   <script src="assets/js/gsap-split-text.min.js"></script>
+   <script src="assets/js/lenis.min.js"></script>
+   <script src="assets/js/odometer.min.js"></script>
+   <script src="assets/js/mixitup.min.js"></script>
+   <script src="assets/js/swiper.min.js"></script>
+   <script src="assets/js/imagesloaded-pkgd.js"></script>
+   <script src="assets/js/isotope.pkgd.min.js"></script>
+   <script src="assets/js/meanmenu.js"></script>
+   <script src="assets/js/wow.min.js"></script>
+   <script src="assets/js/main.js"></script>
+</body>
+
+<style>
+   header.tj-header-area.header-absolute.header-1 {
+      background: #000;
+   }
+</style>
+</html>
