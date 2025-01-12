@@ -7584,13 +7584,23 @@ START: Theme Services CSS
           mask-size: contain;
   background: transparent;
   margin-bottom: 15px;
+  color: #fff;
   -webkit-transition: all 0.6s ease-in-out 0s;
   transition: all 0.6s ease-in-out 0s;
   z-index: 1;
 }
 .tabs-inner .list-tabs.active {
   background-color: var(--tj-color-theme-primary);
+  background: url(../img/service_shapes.svg);
+  color: #000;
 }
+.tj-service_widget.widget_categories ul li a {
+  font-size: 17px !important;
+}
+.tj-service-section.service-inner .tabs-inner .list-tabs .title {
+  font-size: 22px;
+}
+.tj-service-section.service-inner .tabs-inner .list-tabs {padding: 34px 0px;}
 .tabs-inner .list-tabs:last-child {
   margin-bottom: 0;
 }
