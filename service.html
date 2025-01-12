@@ -1,0 +1,855 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+   <meta charset="utf-8" />
+   <meta http-equiv="x-ua-compatible" content="ie=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="" />
+
+   <!-- Site Title -->
+   <title>Xpedients</title>
+
+   <!-- Place favicon.ico in the root directory -->
+   <link rel="apple-touch-icon" href="assets/images/fav.svg" />
+   <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png" />
+
+   <!-- CSS here -->
+   <link rel="stylesheet" href="assets/css/animate.min.css" />
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+   <link rel="stylesheet" href="assets/css/swiper.min.css" />
+   <link rel="stylesheet" href="assets/css/bydos-icons.css" />
+   <link rel="stylesheet" href="assets/css/venobox.min.css" />
+   <link rel="stylesheet" href="assets/css/meanmenu.css" />
+   <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+
+   <div class="body-overlay d-lg-none"></div>
+
+   <!-- start: preloader -->
+   <div id="preloader">
+      <div class="tj-loader-wrap">
+         <div class="tj-loader">
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+            <span class="tj-loader-item"></span>
+         </div>
+      </div>
+   </div>
+   <!-- end: preloader -->
+
+   <!-- start: Search Popup -->
+   <div class="search-popup">
+      <button class="close-search style-2">
+         <i class="fa fa-light fa-xmark"></i>
+      </button>
+      <form method="post" action="#">
+         <div class="form-group">
+            <input type="search" name="search-field" value="" placeholder="Search Here" required="">
+            <button type="submit"><i class="fa fa-search"></i></button>
+         </div>
+      </form>
+      <div class="search-overly"></div>
+   </div>
+   <!-- end: Search Popup -->
+
+   <!-- start: Hamburger Menu -->
+   <div class="hamburger-area d-lg-none" data-lenis-prevent>
+      <div class="hamburger_bg"></div>
+      <div class="hamburger_wrapper">
+         <div class="hamburger_top d-flex align-items-center justify-content-between">
+            <div class="hamburger_logo">
+               <a href="index.html" class="mobile_logo">
+                  <img src="assets/img/logo.png" alt="Logo" />
+               </a>
+            </div>
+            <div class="hamburger_close">
+               <button class="hamburger_close_btn"><i class="fa-thin fa-times"></i></button>
+            </div>
+         </div>
+         <div class="hamburger_search">
+            <form method="get" action="index.html">
+               <button type="submit"><i class="fal fa-search"></i></button>
+               <input type="search" autocomplete="off" name="s" value="" placeholder="Search here" />
+            </form>
+         </div>
+         <div class="hamburger_menu">
+            <div class="mobile_menu"></div>
+         </div>
+         <div class="hamburger-infos">
+            <h4 class="hamburger-title">Information</h4>
+            <div class="contact-item">
+               <div class="contact-text">
+                  <div class="text"><a class="link" href="mailto:support@xpedients.com">support@xpedients.com</a></div>
+               </div>
+            </div>
+            <div class="contact-item">
+               <div class="contact-text">
+                  <div class="text"><a class="link" href="tel:+91 98109 03543">+91 98109 03543</a></div>
+               </div>
+            </div>
+            <div class="contact-item">
+               <div class="contact-text">
+                  <div class="text">Sector - 63, Noida, Uttar Pradesh 201301, IN</div>
+               </div>
+            </div>
+         </div>
+         <div class="hamburger-socials">
+            <h4 class="hamburger-title">Follow Us</h4>
+            <ul>
+               <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+               </li>
+               <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+               </li>
+               <li>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+               </li>
+               <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <!-- end: Hamburger Menu -->
+
+   <!-- start: Header Area -->
+   <header class="tj-header-area header-absolute header-1">
+      <div class="container-fluid px-0">
+         <div class="row">
+            <div class="col-12">
+               <div class="header-wrapper">
+                  <div class="site-logo">
+                     <a class="logo" href="index.html"><img src="assets/img/logo.png"
+                           alt="logo"></a>
+                  </div>
+                  <div class="mainmenu main-mobile-menu d-none d-lg-inline-flex">
+                     <ul>
+                        <li>
+                           <a href="index.html">Home</a>
+                        </li>
+                        <li class="current-menu-ancestor">
+                           <a href="service.html">Services</a>
+                        </li>
+                        <li>
+                           <a href="about.html">About</a>
+                        </li>
+                        <li>
+                           <a href="javascript:void(0)">Blog</a>
+                        </li>
+                        <li  ><a href="contact.html">Contact</a></li>
+                     </ul>
+                  </div>
+                  <div class="header-infos d-none d-lg-inline-flex">
+                     <div class="header-search d-none d-xl-inline-flex">
+                        <button class="search">Search<i class="fa fa-search"></i></button>
+                     </div>
+                     <div class="header-button">
+                        <a href="contact.html" class="tj-primary-btn">
+                           <span class="btn-text">
+                              <span>Download <i class="fa fa-user-o" style="padding-left: 10px;"></i></span>
+                           </span>
+                        </a>
+                     </div>
+                  </div>
+
+                  <!-- menu bar -->
+                  <div class="menu_bar mobile_menu_bar d-lg-none">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <header class="tj-header-area header-duplicate header-sticky header-1">
+      <div class="container-fluid px-0">
+         <div class="row">
+            <div class="col-12">
+               <div class="header-wrapper">
+                  <div class="site-logo">
+                     <a class="logo" href="index.html"><img src="assets/img/logo.png"
+                           alt="logo"></a>
+                  </div>
+                  <div class="mainmenu d-none d-lg-inline-flex">
+                    <ul>
+                       <li>
+                          <a href="index.html">Home</a>
+                       </li>
+                       <li class="current-menu-ancestor">
+                          <a href="service.html">Services</a>
+                       </li>
+                       <li>
+                          <a href="about.html">About</a>
+                       </li>
+                       <li>
+                          <a href="javascript:void(0)">Blog</a>
+                       </li>
+                       <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                  <div class="header-infos d-none d-lg-inline-flex">
+                     <div class="header-search d-none d-xl-inline-flex">
+                        <button class="search">Search<i class="fa fa-search"></i></button>
+                     </div>
+                     <div class="header-button">
+                        <a href="contact.html" class="tj-primary-btn">
+                           <span class="btn-text">
+                              <span>Download <i class="fa fa-user-o" style="padding-left: 10px;"></i></span>
+                           </span>
+                        </a>
+                     </div>
+                  </div>
+
+                  <!-- menu bar -->
+                  <div class="menu_bar mobile_menu_bar d-lg-none">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- end: Header Area -->
+
+   <main id="content" class="site-main">
+      
+      <!-- About US -->
+
+      <section class="tj-breadcrumb-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="breadcrumb-content-area text-center">
+                     <div class="breadcrumb-link wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <span>
+                           <i class="tji-leaf"></i><a href="index.html">
+                              <span>Home</span>
+                           </a>
+                        </span>
+                        <span>
+                           <span>Our Service</span>
+                        </span>
+                     </div>
+                     <div class="breadcrumb-heading wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <h1 class="breadcrumb-title">Our Service</h1>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="breadcrumb-bg" data-bg-image="assets/img/849.jpg" style="background-image: url(&quot;assets/img/849.jpg&quot;);"></div>
+      </section>
+
+      <!-- start: Service Area -->
+      <section class="service-inner-page">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="service-inner-wrapper">
+                     <div class="inner-images wow fadeInLeft" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                        <div class="images-box">
+                           <img src="assets/img/service-inner.jpg" alt="Image">
+                        </div>
+                     </div>
+                     <div class="service-inner-content">
+                        <div class="heading-area">
+                           <span class="sub-title wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">Service Benefit</span>
+                           <h3 class="sec-title wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Building to <span>brands</span> with
+                              purpose &amp; passion</h3>
+                        </div>
+                        <div class="service-inner-process">
+                           <div class="process-item wow fadeInLeft" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                              <div class="process-text">
+                                 <h5 class="title">friendly Team</h5>
+                                 <div class="desc">
+                                    <p>Consectetuer vehicula hendrery faucibus vestibulum on ultricies suspendisse</p>
+                                 </div>
+                              </div>
+                              <div class="process-icon">
+                                 <i class="fa fa-support"></i>
+                              </div>
+                           </div>
+                           <div class="process-item wow fadeInRight" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+                              <div class="process-text">
+                                 <h5 class="title">Lowest budget</h5>
+                                 <div class="desc">
+                                    <p>Consectetuer vehicula hendrery faucibus vestibulum on ultricies suspendisse</p>
+                                 </div>
+                              </div>
+                              <div class="process-icon">
+                                 <i class="fa fa-briefcase"></i>
+                              </div>
+                           </div>
+                           <div class="process-item wow fadeInLeft" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                              <div class="process-text">
+                                 <h5 class="title">quick support</h5>
+                                 <div class="desc">
+                                    <p>Consectetuer vehicula hendrery faucibus vestibulum on ultricies suspendisse</p>
+                                 </div>
+                              </div>
+                              <div class="process-icon">
+                                 <i class="fa fa-pie-chart" aria-hidden="true"></i>
+                              </div>
+                           </div>
+                           <div class="process-item wow fadeInRight" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInRight;">
+                              <div class="process-text">
+                                 <h5 class="title">unique idea</h5>
+                                 <div class="desc">
+                                    <p>Consectetuer vehicula hendrery faucibus vestibulum on ultricies suspendisse</p>
+                                 </div>
+                              </div>
+                              <div class="process-icon">
+                                 <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end: Service Area -->
+
+
+      <section class="tj-service-section service-inner">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="heading-area text-center wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                     <span class="sub-title">Exclusive service</span>
+                     <h3 class="sec-title">Our <span>popular</span> services</h3>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12">
+                  <div class="service-tabs-wrapper d-none d-lg-flex">
+                     <div class="tabs-inner nav flex-column nav-pills tj-fade-left wow fadeInLeft" id="v-pills-tab3" role="tablist" aria-orientation="vertical" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                        <button class="list-tabs nav-link active" id="v-pills-home-tab" type="button" role="tab" data-bs-toggle="pill" data-bs-target="#service-1" aria-selected="true">
+                           <span class="service-number">01</span>
+                           <span class="title">Web Application Development</span>
+                        </button>
+                        <button class="list-tabs nav-link" id="v-pills-profile-tab" type="button" role="tab" data-bs-toggle="pill" data-bs-target="#service-2" aria-selected="false" tabindex="-1">
+                           <span class="service-number">02</span>
+                           <span class="title">Mobile Application Development</span>
+                        </button>
+                        <button class="list-tabs nav-link" id="v-pills-messages-tab" type="button" role="tab" data-bs-toggle="pill" data-bs-target="#service-3" aria-selected="false" tabindex="-1">
+                           <span class="service-number">03</span>
+                           <span class="title">Digital Marketing</span>
+                        </button>
+                        <button class="list-tabs nav-link" id="v-pills-settings-tab" type="button" role="tab" data-bs-toggle="pill" data-bs-target="#service-4" aria-selected="false" tabindex="-1">
+                           <span class="service-number">04</span>
+                           <span class="title">Maintenance and Support</span>
+                        </button>
+                     </div>
+                     <div class="tabs-content-area wow fadeInRight" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+                        <div class="tab-content" id="v-pills-tabContent2">
+                           <div class="tab-pane fade active show" id="service-1" aria-labelledby="v-pills-home-tab" role="tabpanel">
+                              <div class="tabs-wrapper">
+                                 <div class="thumbs_image">
+                                    <img src="assets/img/h2-service.jpg" alt="Images">
+                                 </div>
+                                 <div class="service-content">
+                                    <div class="service-shapes">
+                                       <img src="assets/img/white_shapes.svg" alt="Shapes">
+                                    </div>
+                                    <div class="desc">
+                                       <p>Talk about proficient and seasoned Web Application Developers, we have an entire team. While development is its forte, comprehending your business needs is our team’s utmost priority.</p>
+                                    </div>
+                                    <div class="service-button d-inline-flex">
+                                       <a href="" class="tj-primary-btn">
+                                          <span class="btn-text">
+                                             <span>Learn More</span>
+                                          </span>
+                                          <span class="btn-icon">
+                                             <i class="fa fa-arrow-right"></i>
+                                             <i class="fa fa-arrow-right"></i>
+                                          </span>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tab-pane fade" id="service-2" aria-labelledby="v-pills-profile-tab" role="tabpanel">
+                              <div class="tabs-wrapper">
+                                 <div class="thumbs_image">
+                                    <img src="assets/img/service-tabs.jpg" alt="Images">
+                                 </div>
+                                 <div class="service-content">
+                                    <div class="service-shapes">
+                                       <img src="assets/img/white_shapes.svg" alt="Shapes">
+                                    </div>
+                                    <div class="desc">
+                                       <p>Connect and interact with your target audience directly with a captivating yet user-friendly mobile application. Our skilled Mobile App Developers are right here to enrich your brand-audience communication.</p>
+                                    </div>
+                                    <div class="service-button d-inline-flex">
+                                       <a href="" class="tj-primary-btn">
+                                          <span class="btn-text">
+                                             <span>Learn More</span>
+                                          </span>
+                                          <span class="btn-icon">
+                                             <i class="fa fa-arrow-right"></i>
+                                             <i class="fa fa-arrow-right"></i>
+                                          </span>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tab-pane fade" id="service-3" aria-labelledby="v-pills-messages-tab" role="tabpanel">
+                              <div class="tabs-wrapper">
+                                 <div class="thumbs_image">
+                                    <img src="assets/img/service-tabs-2.jpg" alt="Images">
+                                 </div>
+                                 <div class="service-content">
+                                    <div class="service-shapes">
+                                       <img src="assets/img/white_shapes.svg" alt="Shapes">
+                                    </div>
+                                    <div class="desc">
+                                       <p>Building customer engagement is a science and our experienced Digital Marketing Experts know exactly how to measure the benefits of your brand’s social media presence and keep tabs on return-on-investment ratios.</p>
+                                    </div>
+                                    <div class="service-button d-inline-flex">
+                                       <a href="" class="tj-primary-btn">
+                                          <span class="btn-text">
+                                             <span>Learn More</span>
+                                          </span>
+                                          <span class="btn-icon">
+                                             <i class="fa fa-arrow-right"></i>
+                                             <i class="fa fa-arrow-right"></i>
+                                          </span>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tab-pane fade" id="service-4" aria-labelledby="v-pills-settings-tab" role="tabpanel">
+                              <div class="tabs-wrapper">
+                                 <div class="thumbs_image">
+                                    <img src="assets/img/h2-service-1.jpg" alt="Images">
+                                 </div>
+                                 <div class="service-content">
+                                    <div class="service-shapes">
+                                       <img src="assets/img/white_shapes.svg" alt="Shapes">
+                                    </div>
+                                    <div class="desc">
+                                       <p>Forget bugs and errors in your application when you have Xpedient’s Maintenance and Support army by your side. Routine service and proper maintenance is ensured to cause no compromise to the user-experience.</p>
+                                    </div>
+                                    <div class="service-button d-inline-flex">
+                                       <a href="" class="tj-primary-btn">
+                                          <span class="btn-text">
+                                             <span>Learn More</span>
+                                          </span>
+                                          <span class="btn-icon">
+                                             <i class="fa fa-arrow-right"></i>
+                                             <i class="fa fa-arrow-right"></i>
+                                          </span>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="service-tabs-wrapper inner-style-2 d-lg-none">
+                     <div class="tabs-wrapper wow fadeInUp animated" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <div class="thumbs_image">
+                           <img src="assets/img/h2-service.jpg" alt="Images">
+                        </div>
+                        <div class="service-content">
+                           <h4 class="title"><a href="">Web Application Development</a></h4>
+                           <div class="service-shapes">
+                              <img src="assets/img/white_shapes.svg" alt="Shapes">
+                           </div>
+                           <div class="desc">
+                              <p>Talk about proficient and seasoned Web Application Developers, we have an entire team. While development is its forte, comprehending your business needs is our team’s utmost priority.                              </p>
+                           </div>
+                           <div class="service-button d-inline-flex">
+                              <a href="" class="tj-primary-btn">
+                                 <span class="btn-text">
+                                    <span>Learn More</span>
+                                 </span>
+                                 <span class="btn-icon">
+                                    <i class="fa fa-arrow-right"></i>
+                                    <i class="fa fa-arrow-right"></i>
+                                 </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tabs-wrapper wow fadeInUp animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <div class="thumbs_image">
+                           <img src="assets/img/service-tabs.jpg" alt="Images">
+                        </div>
+                        <div class="service-content">
+                           <h4 class="title"><a href="">Mobile Application Development</a></h4>
+                           <div class="service-shapes">
+                              <img src="assets/img/white_shapes.svg" alt="Shapes">
+                           </div>
+                           <div class="desc">
+                              <p>Connect and interact with your target audience directly with a captivating yet user-friendly mobile application. Our skilled Mobile App Developers are right here to enrich your brand-audience communication.</p>
+                           </div>
+                           <div class="service-button d-inline-flex">
+                              <a href="" class="tj-primary-btn">
+                                 <span class="btn-text">
+                                    <span>Learn More</span>
+                                 </span>
+                                 <span class="btn-icon">
+                                    <i class="fa fa-arrow-right"></i>
+                                    <i class="fa fa-arrow-right"></i>
+                                 </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tabs-wrapper wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                        <div class="thumbs_image">
+                           <img src="assets/img/service-tabs-2.jpg" alt="Images">
+                        </div>
+                        <div class="service-content">
+                           <h4 class="title"><a href="">Digital Marketing</a></h4>
+                           <div class="service-shapes">
+                              <img src="assets/img/white_shapes.svg" alt="Shapes">
+                           </div>
+                           <div class="desc">
+                              <p>Building customer engagement is a science and our experienced Digital Marketing Experts know exactly how to measure the benefits of your brand’s social media presence and keep tabs on return-on-investment ratios.</p>
+                           </div>
+                           <div class="service-button d-inline-flex">
+                              <a href="" class="tj-primary-btn">
+                                 <span class="btn-text">
+                                    <span>Learn More</span>
+                                 </span>
+                                 <span class="btn-icon">
+                                    <i class="fa fa-arrow-right"></i>
+                                    <i class="fa fa-arrow-right"></i>
+                                 </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tabs-wrapper wow fadeInUp animated" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                        <div class="thumbs_image">
+                           <img src="assets/img/service-tabs-3.jpg" alt="Images">
+                        </div>
+                        <div class="service-content">
+                           <h4 class="title"><a href="">Maintenance and Support</a></h4>
+                           <div class="service-shapes">
+                              <img src="assets/img/white_shapes.svg" alt="Shapes">
+                           </div>
+                           <div class="desc">
+                              <p>Forget bugs and errors in your application when you have Xpedient’s Maintenance and Support army by your side. Routine service and proper maintenance is ensured to cause no compromise to the user-experience.</p>
+                           </div>
+                           <div class="service-button d-inline-flex">
+                              <a href="" class="tj-primary-btn">
+                                 <span class="btn-text">
+                                    <span>Learn More</span>
+                                 </span>
+                                 <span class="btn-icon">
+                                    <i class="fa fa-arrow-right"></i>
+                                    <i class="fa fa-arrow-right"></i>
+                                 </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      
+      <!-- start: Testimonial Area -->
+      <section class="tj-testimonial-section" data-bg-image="assets/images/shapes/h1-testimonial-bg.png">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="heading-area">
+                     <div class="sec-text wow fadeInLeft" data-wow-delay=".4s">
+                        <span class="sub-title">Our testimonials</span>
+                        <h3 class="sec-title">Happy <span>clients</span> feedback about service</h3>
+                     </div>
+                     <div class="testimonial-infos wow fadeInRight" data-wow-delay=".4s">
+                        <div class="testimonial-text">
+                           <div class="testimonial-icon">
+                              <i class="fa fa-solid fa-star"></i>
+                           </div>
+                           <div class="testimonial-header">
+                              <span>Verified by</span>
+                              <h4 class="title">Trustpilot</h4>
+                           </div>
+                        </div>
+                        <div class="testimonial-rating">
+                           <div class="star-ratings">
+                              <div class="fill-ratings" style="width: 73%">
+                                 <span>★★★★★</span>
+                              </div>
+                              <div class="empty-ratings">
+                                 <span>★★★★★</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid gx-0">
+            <div class="swiper swiper-container tj-testimonial-slider wow fadeInUp" data-wow-delay=".5s">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide tj-testimonial-item">
+                     <div class="testimonial-quote">
+                        <div class="quote-icon">
+                           <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="testimonial-number">
+                           <span class="number">02</span>
+                        </div>
+                     </div>
+                     <div class="desc">
+                        <p>Libero nec at nisia tristique interdum eulas bita proin behicula conubia hackin potenti urna
+                           curae posuere dolor at pede penatibus pharetra acan parturient viverra proin best
+                           pellentesque lectus aliquet vitae cause details duis.</p>
+                     </div>
+                     <div class="testimonial-auother">
+                        <div class="auother-images">
+                           <img src="assets/img/h1-test-2.png" alt="Image">
+                        </div>
+                        <div class="auother-name">
+                           <h5 class="title">Tarun Sharma</h5>
+                           <span>Marketing head</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide tj-testimonial-item">
+                     <div class="testimonial-quote">
+                        <div class="quote-icon">
+                           <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="testimonial-number">
+                           <span class="number">03</span>
+                        </div>
+                     </div>
+                     <div class="desc">
+                        <p>Libero nec at nisia tristique interdum eulas bita proin behicula conubia hackin potenti urna
+                           curae posuere dolor at pede penatibus pharetra acan parturient viverra proin best
+                           pellentesque lectus aliquet vitae cause details duis.</p>
+                     </div>
+                     <div class="testimonial-auother">
+                        <div class="auother-images">
+                           <img src="assets/img/h1-test-3.png" alt="Image">
+                        </div>
+                        <div class="auother-name">
+                           <h5 class="title">Tarun Sharma</h5>
+                           <span>UI/UX Designer</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide tj-testimonial-item">
+                     <div class="testimonial-quote">
+                        <div class="quote-icon">
+                           <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="testimonial-number">
+                           <span class="number">01</span>
+                        </div>
+                     </div>
+                     <div class="desc">
+                        <p>Libero nec at nisia tristique interdum eulas bita proin behicula conubia hackin potenti urna
+                           curae posuere dolor at pede penatibus pharetra acan parturient viverra proin best
+                           pellentesque lectus aliquet vitae cause details duis.</p>
+                     </div>
+                     <div class="testimonial-auother">
+                        <div class="auother-images">
+                           <img src="assets/img/h1-test-1.png" alt="Image">
+                        </div>
+                        <div class="auother-name">
+                           <h5 class="title">Barbara Booker</h5>
+                           <span>Marketing head</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="testimonial-pagination"></div>
+            </div>
+         </div>
+      </section>
+      <!-- start: Testimonial Area -->
+   </main>
+
+   <!-- start: Footer Area -->
+   <footer class="tj-footer-area footer-1" data-bg-image="assets/images/shapes/h1-footer-shapes.png">
+      <div class="footer-top-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="subscribe-content-area">
+                     <h2 id="anim" class="title">Subscribe now</h2>
+                     <form>
+                        <div class="subscribe_form">
+                           <div class="form_input">
+                              <input type="email" name="email" id="email" placeholder="Email address here" required="">
+                           </div>
+                           <div class="form_infos">
+                              <i class="fa send fa-regular fa-paper-plane"></i>
+                              <button class="tj-primary-btn">
+                                 <span class="btn-text">
+                                    <span>Submit now</span>
+                                 </span>
+                                 <span class="btn-icon">
+                                    <i class="fa fa-arrow-right"></i>
+                                    <i class="fa fa-arrow-right"></i>
+                                 </span>
+                              </button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer-bottom-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="footer-widget footer1-col-1 widget_nav_menu">
+                     <div class="footer-title">
+                        <h5 class="title">Services</h5>
+                     </div>
+                     <ul>
+                        <li><a href="#">Web Application</a></li>
+                        <li><a href="#">Mobile Application</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">Maintenance & Support</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-2 col-md-6 col-sm-6">
+                  <div class="footer-widget footer1-col-2 widget_nav_menu">
+                     <div class="footer-title">
+                        <h5 class="title">Quick link</h5>
+                     </div>
+                     <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our blog</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Contact</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="footer-widget footer1-col-3 footer_contact">
+                     <div class="footer-title">
+                        <h5 class="title">Contact</h5>
+                     </div>
+                     <div class="contact-list">
+                        <ul>
+                           <li><span>Email Us</span><a class="link"
+                                 href="mailto:support@xpedients.com">support@xpedients.com</a></li>
+                           <li><span>Phone No</span><a class="link" href="tel:+91 98109 03543">+91 98109 03543</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                  <div class="footer-widget footer1-col-4 footer_map">
+                     <div class="footer-title">
+                        <h5 class="title">Location</h5>
+                     </div>
+                     <div class="map-location">
+                        <ul>
+                           <li>Sector - 63, Noida, Uttar Pradesh 201301, IN</li>
+                        </ul>
+                     </div>
+                     <div class="footer-socials">
+                        <h5 class="title">Follow Us</h5>
+                        <ul>
+                           <li><a href="#">facebook</a></li>
+                           <li><a href="#">twitter</a></li>
+                           <li><a href="#">linkedin</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="tj-copyright-area">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="copyright-wrapper">
+                     <div class="copyright-text">
+                        <p>Xpedients © 2024 All Rights Reserved.</p>
+                     </div>
+                     <div class="copyright-logo">
+                        <a class="logo" href="#">
+                           <img src="assets/img/logo.png" alt="Logos">
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- end: Footer Area -->
+
+   <!-- start: Back To Top -->
+   <div class="scroll-to-top">
+      <i class="fa fa-regular fa-angle-up"></i>
+   </div>
+   <!-- end: Back To Top -->
+
+   <!-- JS here -->
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/jquery-knob.js"></script>
+   <script src="assets/js/venobox.min.js"></script>
+   <script src="assets/js/appear.min.js"></script>
+   <script src="assets/js/chroma.min.js"></script>
+   <script src="assets/js/gsap.min.js"></script>
+   <script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
+   <script src="assets/js/gsap-scroll-trigger.min.js"></script>
+   <script src="assets/js/gsap-split-text.min.js"></script>
+   <script src="assets/js/lenis.min.js"></script>
+   <script src="assets/js/odometer.min.js"></script>
+   <script src="assets/js/mixitup.min.js"></script>
+   <script src="assets/js/swiper.min.js"></script>
+   <script src="assets/js/imagesloaded-pkgd.js"></script>
+   <script src="assets/js/isotope.pkgd.min.js"></script>
+   <script src="assets/js/meanmenu.js"></script>
+   <script src="assets/js/wow.min.js"></script>
+   <script src="assets/js/main.js"></script>
+</body>
+
+<style>
+   header.tj-header-area.header-absolute.header-1 {
+      background: #000;
+   }
+   .accordion-item .faq-content .faq-title:before {
+      content:"\f061" !important;     font: normal normal normal 14px / 1 FontAwesome !important;
+   }
+</style>
+</html>
